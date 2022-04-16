@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Guide</title>
+    <style>
+        .image
+        {
+            width: 50%;
+            height: 50%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        li{
+            font-size: medium;
+            font-weight: bold;
+            color: rgb(39, 39, 184);
+        }
+        h1,h3
+        {
+            color: rgb(39, 39, 184);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>How we use github?</h1>
+<h4>GitHub is complex, but understanding a few basics will help you get started. <br> In order to use GitHub, you’ll need to first be able to complete these few steps. <br> How to use GitHub:</h4>
+
+<h3>1. Signup</h3>
+<p>In order to use GitHub, you’ll need a GitHub account. You can create a free GitHub account <a href="https://github.com/">here</a> and start using GitHub right away. With a free account, you’ll get access to unlimited public and private repositories. You’ll also get bug tracking and project management features. The only downside is that you’ll only be allowed three collaborators for private repositories. If you’re still in the “GitHub for beginners” stage, signing up for a free account is a great place to start.
+
+</p>
+<h3>2. Install Git</h3>
+<p>GitHub runs on Git. What is Git? Git is a version-control system created by programming icon, Linus Torvald. He originally created Git to track changes to source code changes as he was developing the Linux operating system. Git helps programmers collaborate, coordinate work, and work together on complex code and development projects. Git tracks changes and helps teams work remotely on intricate programs. Click <a href="https://git-scm.com/">here</a> to install Git on your computer. Some prefer to make changes using the command line in Git itself. For our purposes, though, we’ll focus on how to do things within GitHub.</p>
+<h3>3. Create a repository</h3>
+<p>To do anything in GitHub, you’ll need to know how to first start a repository. A repository (or repo) is essentially synonymous with the word “project.” Quite simply, a repository stores everything pertinent to a specific project including files, images, spreadsheets, data sets, and videos, often sorted into files. It’s best to include a README file within your repository that has specific information regarding the given project. On GitHub, you can add a README file right when you create a new repository.
+
+    To create a new repository, you’ll hit “new repository” in the upper-right-hand corner. You can then name your repository, include a brief description, and check the box that says “initialize this repository with a README.” Finally, you’ll click “create repository.”</p>
+    <img src="/newrepo.png" alt="" srcset="" class="image">
+    <img src="/createrepo.png" alt="" class="image">
+    <p>If you want to ignore some files, while pushing ,then use this ignore option.</p>
+    <img src="/ignore.png" alt="" srcset="" class="image">
+    <h3>4. Clone your repo</h3>
+    <p>Git clone is a command for downloading existing source code from a remote repository (like Github, for example). In other words, Git clone basically makes an identical copy of the latest version of a project in a repository and saves it to your computer..To clone repo, copy the address of repo and open git bash , use "git clone" command and paste that address . as shown below</p>
+ <img src="/clone.png" alt="" srcset="" class="image">
+ <img src="/clonecommand.png" alt="" srcset="" class="image">
+ <h3>5. Add File</h3>
+ <p>You can also add file manually</p>
+ <img src="/addfile.png" alt="" srcset="" class="image">
+ <h3>6. Commands</h3>
+ <p>The following commands used on git bash to clone repo, push , commit etc.</p>
+ <ul>
+     <li>
+       git Add
+     </li>
+     <p>When we create, modify or delete a file, these changes will happen in our local and won't be included in the next commit (unless we change the configurations).
+
+        We need to use the git add command to include the changes of a file(s) into our next commit. </p>
+     <li>git commit</li>
+     <p>This is maybe the most-used command of Git. Once we reach a certain point in development, we want to save our changes (maybe after a specific task or issue).
+
+        Git commit is like setting a checkpoint in the development process which you can go back to later if needed.(git commit -m "commit message")</p>
+ <li>git branch</li>
+ <p>Branches are highly important in the git world. By using branches, several developers are able to work in parallel on the same project simultaneously. We can use the git branch command for creating, listing and deleting branches.</p>
+ "git branch ".This command will create a branch locally. <br>
+ <li>git status</li>
+ <p>The Git status command gives us all the necessary information about the current branch. 
+
+    "git status"</p>
+ 
+ <li>git push</li>
+ <p>After committing your changes, the next thing you want to do is send your changes to the remote server. Git push uploads your commits to the remote repository.
+
+   " git push" </p>
+   <li>
+       git pull
+   </li>
+   <p>The git pull command is used to get updates from the remote repo. This command is a combination of git fetch and git merge which means that, when we use git pull, it gets the updates from remote repository (git fetch) and immediately applies the latest changes in your local (git merge).
+
+    "git pull" <remote></p>
+ 
+    </ul>
+
+
+
+
+</body>
+</html>
